@@ -1,10 +1,10 @@
 module Cnab240
   ESTRUTURA_V40 = {
-    segmentos_implementados: [:a],
+    segmentos_implementados: [:a, :t, :u],
     pagamento: {
       header: Cnab240::V40::Pagamentos::Header,
       trailer: Cnab240::V40::Pagamentos::Trailer,
-      segmentos: [:a],
+      segmentos: [:a, :t, :u],
       a: {
         remessa: true,
         retorno: true

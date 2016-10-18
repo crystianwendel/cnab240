@@ -14,6 +14,8 @@ require 'cnab240/lote/v40/boletos/header'
 require 'cnab240/lote/v40/boletos/trailer'
 
 require 'cnab240/segmentos/v40/segmento_a'
+require 'cnab240/segmentos/v40/segmento_t'
+require 'cnab240/segmentos/v40/segmento_u'
 require 'cnab240/segmentos/v60/segmento_a'
 require 'cnab240/segmentos/v60/segmento_b'
 require 'cnab240/segmentos/v60/segmento_j'

@@ -111,7 +111,7 @@ module Cnab240
             l.header = Cnab240::V80::Pagamentos::Header.read(line)
           end
         when 'V40'
-          arquivos.last.lotes << Cnab240::Lote.new(operacao: :pagamento, tipo: :none) do |l|
+          arquivos.last.lotes << Cnab240::Lote.new(operacao: :pagamento, tipo: :none, versao: 'V40') do |l|
             l.header = Cnab240::V40::Pagamentos::Header.read(line)
           end
         else
